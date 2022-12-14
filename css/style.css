@@ -61,8 +61,6 @@ main {
     position: relative;
     width: 100%;
     height: 36.3rem;
-    /* debug */
-    /* background-color: lightseagreen; */
 }
 
 .jumbo-title {
@@ -79,7 +77,6 @@ main {
     position: absolute;
     top: 17rem;
     left: 8rem;
-    /* debug */
     width: 20rem;
 }
 
@@ -98,6 +95,15 @@ main {
     font-size: 3rem;
     margin-top: 2.8rem;
     
+}
+
+/* PLANS */
+.business-title {
+    margin-top: 7rem;
+}
+
+.plan {
+    margin: 3rem 0;
 }
 /* FOOTER */
 footer {
