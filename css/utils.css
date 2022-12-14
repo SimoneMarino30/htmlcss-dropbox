@@ -5,6 +5,11 @@
 	margin: 0 auto;
 }
 
+.container-small {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
 .clearfix::after {
 	content: '';
 	clear: both;
