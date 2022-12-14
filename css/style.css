@@ -103,8 +103,66 @@ main {
 }
 
 .plan {
-    margin: 3rem 0;
+    margin: 2rem 0;
+    /* debug */
+    border: 2px dashed red;
 }
+/* 3 COLONNE */
+.colonne {
+    display: flex;
+    justify-content: space-between;
+}
+.singolo {
+    width: 30%;
+    padding: 1rem;
+    /* debug */
+    border: 2px dashed red;
+}
+
+.column-title {
+    text-align: center;
+    /* debug */
+    border: 2px dashed red;
+}
+
+.enterprise {
+    width: 100%;
+    margin: 1rem 0 1rem 0;
+    padding: 1rem;
+    /* debug */
+    border: 2px dashed red;
+}
+/* PARTNER */
+.partner {
+    position: relative;
+    
+}
+.partner-img {
+    width: 55%;
+}
+
+.partner-text {
+    position: absolute;
+    top: 2rem;
+    right: 0;
+    width: 40%;
+    margin-left: 8%;
+    /* debug */
+    border: 2px dashed red;
+}
+
+/* CARDS */
+.card {
+    width: 30%;
+    display: inline-block;
+}
+
+/* 500 USERS */
+.users {
+    width: 45%;
+    margin: 2rem 0;
+}
+
 /* FOOTER */
 footer {
     /* debug */
