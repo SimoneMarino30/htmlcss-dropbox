@@ -2,7 +2,7 @@
 
 .container-small {
     /* debug */
-    background-color: blueviolet;
+    background-color: lightslategray;
 }
 
 .container {
@@ -108,32 +108,50 @@ nav {
 
 /* PLANS */
 .business-title {
-    margin-top: 7rem;
+    margin-top: 10rem;
 }
 
 .plan {
     margin: 2rem 0;
-    /* debug */
-    border: 2px dashed red;
+    height: 20px;
 }
 
 .yearly {
     margin-left: 3rem;
 }
 
+.circle {
+    display: inline-block;
+    border: 1px solid black;
+    width: 11px;
+    height: 11px;
+    border-radius: 50px;
+}
+
+
 
 /* 3 COLONNE */
-.colonne {
+.colonne,
+.foot-col {
     display: flex;
     justify-content: space-between;
 }
+
 .singolo {
     width: 30%;
-    padding: 1rem;
+    padding-bottom: 1rem;
     /* debug */
     border: 2px dashed green;
 }
 
+.price {
+    font-weight: 500;
+    padding: .5rem 0;
+}
+
+.highlights {
+    list-style: none;
+}
 .column-title {
     text-align: center;
     /* debug */
@@ -141,19 +159,38 @@ nav {
 }
 
 .column-container {
-    width: 85%;
+    width: 100%;
     padding: .8rem 10%;
     /* debug */
     border: 2px dashed yellow;
 }
 
 .enterprise {
-    width: 100%;
-    margin: 1rem 0 1rem 0;
-    padding: 1rem;
+    width: 70%;
+    margin: 2rem 0 5rem 0;
     /* debug */
-    border: 2px dashed yellowgreen;
+    border: 2px dashed red;
 }
+
+.contact {
+    padding-bottom: 2rem;
+}
+
+#enterprise-btn-position {
+    position: relative;
+}
+
+.enterprise-button.btn {
+    position: absolute;
+    bottom: 5rem;
+    right: 0;
+    
+}
+
+.singolo hr {
+    width: 25%;
+}
+
 /* PARTNER */
 .partner {
     position: relative;
@@ -167,31 +204,44 @@ nav {
     position: absolute;
     top: 2rem;
     right: 0;
-    width: 40%;
-    margin-left: 8%;
-    /* debug */
-    border: 2px dashed red;
+    width: 30%;
+    margin: 0 2rem;
+    /* debug
+    border: 2px dashed red; */
+}
+
+.partner-text div {
+    padding: 2rem 0;
 }
 
 /* CARDS */
 .card {
     width: 33%;
     display: inline-block;
-    padding: 1rem;
+}
+
+.card h3 {
+    padding: 1rem 0;
+}
+
+#card-title {
+    padding: 5rem 0 2rem 0;
+}
+
+.card-text {
+    padding: 1rem .5rem .5rem 2rem;
 }
 
 /* 500 USERS */
 .users {
-    width: 80%;
-    height: 20rem;
-    line-height: 3rem;
+    width: 70%;
+    height: 18rem;
+    line-height: 2rem;
     text-align: start;
-    /* debug */
-    border: 2px dashed red;
 }
 
 .scopri {
-    margin: 3rem 0;
+    margin: 7rem 0 2rem 0;
 }
 
 
@@ -287,16 +337,16 @@ footer {
 }
 
 /* FOOTER LIST */
-ul {
+.foot-col ul {
     display: inline-block;
     list-style: none;
 }
 
-ul h3 {
+.foot-col h3 {
     margin-bottom: 2rem;
 }
 
-li {
+.foot-col li {
     padding: .5rem;
 }
 
