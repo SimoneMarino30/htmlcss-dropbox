@@ -122,13 +122,13 @@ main {
     width: 30%;
     padding: 1rem;
     /* debug */
-    border: 2px dashed red;
+    border: 2px dashed green;
 }
 
 .column-title {
     text-align: center;
     /* debug */
-    border: 2px dashed red;
+    border: 2px dashed blue;
 }
 
 .column-container {
@@ -143,7 +143,7 @@ main {
     margin: 1rem 0 1rem 0;
     padding: 1rem;
     /* debug */
-    border: 2px dashed red;
+    border: 2px dashed yellowgreen;
 }
 /* PARTNER */
 .partner {
@@ -173,9 +173,18 @@ main {
 
 /* 500 USERS */
 .users {
-    width: 45%;
-    margin: 2rem 0;
+    width: 80%;
+    height: 20rem;
+    line-height: 3rem;
+    text-align: start;
+    /* debug */
+    border: 2px dashed red;
 }
+
+.scopri {
+    margin: 3rem 0;
+}
+
 
 /* IMG SVG */
 
@@ -187,14 +196,70 @@ main {
 .loghi {
     width: 15rem;
     height: 15rem;
+    line-height: 15rem;
+    text-align: center;
     /* debug */
     border: 2px dashed yellowgreen;
-    display: inline-block;
+    /* display: inline-block; */
     object-fit: cover;   
 }
 
+.loghi img {
+    width: 50%;
+    filter: invert();
+}
+
+.central-col {
+    width: 100%; 
+    margin: 2rem 0 0 3rem;
+}
+
+.central-col img {
+    width: 50%;
+    color: black;
+}
+
+/* DROPBOX BUSINESS */
+
+#dropbox-business {
+    width: 100%;
+    height: 20rem;
+    background-color: rgb(180, 208, 230);
+    /* debug */
+    border: 2px dashed yellowgreen;
+}
+.bring {
+    width: 80%;
+    height: 12rem;
+    background-color: rgb(180, 208, 230);
+    margin-top: 5rem;
+    text-align: start;
+    position: relative;
+    /* debug */
+    border: 2px dashed red;
+}
+
+.bring button {
+    position: absolute;
+    top: 1rem;
+    right: -10rem;
+}
+
+/* DOMANDE FREQUENTI */
+
+#domande-frequenti {
+    line-height: 8rem;
+    
+    /* debug */
+    border: 2px dashed black;
+}
+
+#domande-frequenti i {
+    margin-left: 17rem; 
+}
 
 /* FOOTER */
+
 footer {
     /* debug */
     background-color: #333;
