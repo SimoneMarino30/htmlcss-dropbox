@@ -211,16 +211,26 @@ main {
 
 .central-col {
     width: 100%; 
-    margin: 2rem 0 0 3rem;
+    margin: 2rem 2rem 2rem 3rem;
 }
 
+/* COLONNA CENTRALE */
 .central-col img {
-    width: 50%;
+    width: 60%;
     color: black;
 }
 
-/* DROPBOX BUSINESS */
+.central-col hr {
+    margin: 3rem 0;
+    width: 20%;
+}
 
+#author {
+    margin-top: 2rem;
+}
+
+
+/* DROPBOX BUSINESS */
 #dropbox-business {
     width: 100%;
     height: 20rem;
@@ -249,6 +259,7 @@ main {
 
 #domande-frequenti {
     line-height: 8rem;
+    margin-bottom: 6rem;
     
     /* debug */
     border: 2px dashed black;
@@ -259,8 +270,8 @@ main {
 }
 
 /* FOOTER */
-
 footer {
+    padding: 7rem;
     /* debug */
     background-color: #333;
     color: #FFF;
@@ -269,6 +280,23 @@ footer {
 /* FOOTER LIST */
 ul {
     display: inline-block;
-    
-   
+    list-style: none;
+}
+
+ul h3 {
+    margin-bottom: 2rem;
+}
+
+li {
+    padding: .5rem;
+}
+
+/* LANGUAGE */
+.language hr {
+    margin: 5rem 0 2rem 1rem;
+    width: 10%;
+}
+
+.language div {
+    margin-left: 1rem;
 }
