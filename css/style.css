@@ -43,25 +43,16 @@ nav {
 
 .logo {
     width: 9rem;
-    margin-top: -.2rem;
-    
+    margin-top: -.2rem; 
 }
 
-.nav-btn {
+.nav-button {
     margin-top: -.2rem;
     background-color: #0061fe;
     color: #fff;
     border: none;
     padding: .3rem .8rem;
 }
-
-
-/* MAIN */
-main {
-    /* debug */
-    background-color: lightcoral;
-}
-
 
 /* JUMBO */
 .jumbotron {
@@ -71,33 +62,42 @@ main {
 .jumbo {
     position: relative;
     width: 100%;
-    height: 43rem;
+    height: 41rem;
 }
 
 .jumbo-title {
     position: absolute;
     top: 0;
+    left: 0;
     max-width: 80%;
-    margin: 6rem 15% 0 5%;
-    text-align: center;
+    margin: 8rem 15% 0 5%;
+    text-align: start;
 }
 
 .jumbo-text {
     position: absolute;
     top: 22rem;
-    left: 6rem;
-    width: 20rem;
+    left: 4rem;
+    width: 18rem;
+    max-width: 80%;
 }
 
 .jumbo-img {
     position: absolute;
     top: 22rem;
-    left: 25rem;
-    width: 45rem; 
+    left: 23rem;
+    width: 43rem; 
+    max-width: 80%;
 }
 
+#jumbo-space {
+    padding: 2rem 0; 
+}
 .jumbo-button {
-    margin: 2rem 0;
+    background-color: #0061fe;
+    color: #fff;
+    border: none;
+    padding: .5rem .8rem;;
 }
 
 .arrow-down {
