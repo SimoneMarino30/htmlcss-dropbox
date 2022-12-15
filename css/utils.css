@@ -3,6 +3,7 @@
 .container {
 	max-width: 1200px;
 	margin: 0 auto;
+	background-color: rgb(180, 208, 230);
 }
 
 .container-small {
@@ -15,3 +16,4 @@
 	clear: both;
 	display: table;
 }
+
