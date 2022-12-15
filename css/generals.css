@@ -18,15 +18,8 @@ h4 {
 font-size: .8rem;
 font-weight: 500;
 }
+
 .btn {
     padding: .15rem .8rem;
 }
 
-/* SECTION COLONNE SPAZIATURE */
-
-.icons,
-.icons>div,
-.buy-now,
-.highlights li {
-    padding: 1rem 0;
-}
