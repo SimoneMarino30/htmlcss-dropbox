@@ -107,6 +107,12 @@ main {
     /* debug */
     border: 2px dashed red;
 }
+
+.yearly {
+    margin-left: 3rem;
+}
+
+
 /* 3 COLONNE */
 .colonne {
     display: flex;
@@ -123,6 +129,13 @@ main {
     text-align: center;
     /* debug */
     border: 2px dashed red;
+}
+
+.column-container {
+    width: 85%;
+    padding: .8rem 10%;
+    /* debug */
+    border: 2px dashed yellow;
 }
 
 .enterprise {
@@ -153,8 +166,9 @@ main {
 
 /* CARDS */
 .card {
-    width: 30%;
+    width: 33%;
     display: inline-block;
+    padding: 1rem;
 }
 
 /* 500 USERS */
@@ -162,6 +176,23 @@ main {
     width: 45%;
     margin: 2rem 0;
 }
+
+/* IMG SVG */
+
+.loghi-aziende {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.loghi {
+    width: 15rem;
+    height: 15rem;
+    /* debug */
+    border: 2px dashed yellowgreen;
+    display: inline-block;
+    object-fit: cover;   
+}
+
 
 /* FOOTER */
 footer {
@@ -172,7 +203,7 @@ footer {
 
 /* FOOTER LIST */
 ul {
-    display: flex;
-    justify-content: space-around;
+    display: inline-block;
+    
    
 }
