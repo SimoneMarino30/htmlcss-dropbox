@@ -24,7 +24,7 @@ nav {
 
 .nav-start>a,
 .nav-end>a {
-    padding: .8rem;
+    padding: 1.5rem .8rem 1.6rem .8rem;
     text-decoration: none;
     font-weight: 500;
     color: #7b7b7b;
@@ -33,15 +33,7 @@ nav {
 
 .logo {
     width: 9rem;
-    margin: .4rem .4rem; 
-}
-
-.nav-button {
-    margin: .4rem .4rem;
-    background-color: #0061fe;
-    color: #fff;
-    border: none;
-    padding: .3rem .8rem;
+    margin: 1.1rem .4rem; 
 }
 
 /* JUMBO */
@@ -83,17 +75,14 @@ nav {
 #jumbo-space {
     padding: 2rem 0; 
 }
-.jumbo-button {
-    background-color: #0061fe;
-    color: #fff;
-    border: none;
-    padding: .5rem .8rem;;
-}
 
 .arrow-down {
     font-size: 3rem;
     margin-top: 2.8rem;
-    
+}
+
+.fa-arrow-down {
+    color: #000000;
 }
 
 /* PLANS */
@@ -162,15 +151,12 @@ nav {
     padding: .8rem 10%;
 }
 
-.col-button {
-    background-color: #0061fe;
-    color: #fff;
-    border: none;
-    padding: .5rem;
-    width: 95%;
+.buy-now a {
+    color: #0061fe;
 }
 
-/* SECTION COLONNE SPAZIATURE */
+
+/* SECTION 3 COLONNE SPAZIATURE */
 
 .icons,
 .icons>div,
@@ -189,17 +175,6 @@ nav {
 
 #enterprise-btn-position {
     position: relative;
-}
-
-.enterprise-button.btn {
-    position: absolute;
-    width: 25%;
-    bottom: 7rem;
-    right: 2rem;
-    background-color: #0061fe;
-    color: #fff;
-    border: none;
-    padding: .5rem;
 }
 
 .enterprise-title div {
@@ -242,13 +217,6 @@ nav {
     padding: 2rem 0;
 }
 
-.partner-button {
-    padding: .6rem;
-    border: 1px solid black;
-    background-color: #FFF;
-    width: 55%;
-    font-weight: 400;
-}
 /* CARDS */
 .card {
     width: 33%;
@@ -281,7 +249,6 @@ nav {
 
 .clients {
     color: #0061fe;
-    font-weight: 500;
 }
 
 
@@ -396,12 +363,18 @@ nav {
 }
 
 #domande-frequenti i {
-    margin-left: 17rem; 
+    margin-left: 15rem; 
+}
+
+#domande-frequenti span {
+    font-size: medium;
+    font-weight: 800;
 }
 
 /* FOOTER */
 footer {
-    padding: 7rem;
+    padding: 5rem 0rem 2rem 0rem;
+    margin-top: 6rem;
     background-color: #000000;
     color: #FFF;
 }
@@ -423,7 +396,7 @@ footer {
 /* LANGUAGE */
 
 .language hr {
-    margin: 5rem 0 2rem 1rem;
+    margin: 4rem 0 2rem 1rem;
     width: 10%;
 }
 

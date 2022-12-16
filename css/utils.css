@@ -11,6 +11,11 @@
 	margin: 0 auto;
 }
 
+.container-footer {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
 .clearfix::after {
 	content: '';
 	clear: both;

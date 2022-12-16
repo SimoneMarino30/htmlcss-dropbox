@@ -19,7 +19,40 @@ font-size: .8rem;
 font-weight: 500;
 }
 
-.btn {
-    padding: .15rem .8rem;
+/* BUTTONS */
+
+.btn-b {
+    background-color: #0061fe;
+    color: #fff;
+    border: none;
 }
 
+.nav-button {
+    margin: 1.2rem .8rem;
+    padding: .3rem .8rem;
+}
+
+.jumbo-button {
+    padding: .5rem .8rem;
+}
+
+.col-button {
+    padding: .5rem;
+    width: 95%;
+}
+
+.enterprise-button {
+    position: absolute;
+    width: 25%;
+    bottom: 7rem;
+    right: 2rem;
+    padding: .5rem;
+}
+
+.button-w {
+    padding: .6rem;
+    border: 1px solid black;
+    background-color: #FFF;
+    width: 55%;
+    font-weight: 400;
+}

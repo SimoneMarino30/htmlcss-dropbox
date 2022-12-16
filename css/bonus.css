@@ -1,0 +1,30 @@
+/* BONUS BORDER */
+.border-bonus:hover {
+    border-bottom: 4px solid #0193ce;
+}
+
+/* BONUS BUTTON OPACITY */
+
+.btn-b:hover {
+    filter: opacity(70%);
+}
+
+.button-w:hover {
+    filter: opacity(40%);
+}
+
+/* BONUS HOVER HIDDEN TEXT */
+.hover-text:hover .hidden-text {
+    display: block;
+}
+
+.hidden-text {
+    display: none;
+    line-height: 1rem;
+    margin-bottom: 2rem;
+}
+
+/* BONUS ARROW ROTATIONS */
+.hover-text:hover i {
+    transform: rotate(180deg);
+}
