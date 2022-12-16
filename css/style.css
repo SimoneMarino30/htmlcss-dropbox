@@ -141,6 +141,13 @@ nav {
 .highlights {
     list-style: none;
 }
+
+.visible-check {
+    color: #0061fe;
+}
+.invisible-check {
+    color: #FFF;
+}
 .column-title {
     text-align: center;
     border-bottom: 1px solid #7b7b7b;
@@ -148,13 +155,23 @@ nav {
 
 .column-container {
     width: 100%;
-    padding: .8rem 10%;
+    padding: .8rem 1.5rem;
+    position: relative;
 }
 
 .buy-now a {
     color: #0061fe;
 }
 
+/* POSITION ICONS */
+
+.icons div {
+    margin-left: 15px;
+}
+.spaced-icon {
+    position: absolute;
+    left: 20px;
+}
 
 /* SECTION 3 COLONNE SPAZIATURE */
 
@@ -267,8 +284,18 @@ nav {
     object-fit: cover;   
 }
 
+#border-designit {
+    width: 100%;
+    height: 100%;
+    border: 15px solid #d1eacd;
+}
+
+#space-designit {
+    margin-bottom: 50px;
+}
+
 .loghi img {
-    width: 50%;
+    width: 55%;
     filter: invert();
     vertical-align: middle;
 }
@@ -279,39 +306,6 @@ nav {
     background-color: #f5f5f5;
 }
 
-/* LOGHI BACKGROUND */
-
-#designit {
-    background-color: #a2d39b;
-}
-
-#florida {
-    background-color: #0193ce;
-}
-
-#arizona {
-    background-color: #62082b;
-}
-
-#topps {
-    background-color: #fe1c1d;
-}
-
-#bycicle {
-    background-color: #d50020;
-}
-
-#lonely {
-    background-color: #0d2481;
-}
-
-#hearst {
-    background-color: #b4d0e6;
-}
-
-#clear {
-    background-color: #ffd930;
-}
 /* COLONNA CENTRALE */
 
 .central-col img {
@@ -393,6 +387,10 @@ footer {
     padding: .5rem;
 }
 
+li a {
+    text-decoration: none;
+    color: #FFF;
+}
 /* LANGUAGE */
 
 .language hr {
@@ -404,3 +402,4 @@ footer {
     margin-left: 1rem;
     padding-right: .2rem;
 }
+
