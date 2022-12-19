@@ -1,4 +1,5 @@
 /* NAV */
+
 /* position fixed */
 nav {
     position: fixed;
@@ -9,6 +10,7 @@ nav {
     min-width: 100%;
     height: 4rem;
     background-color: #FFF;
+    border-bottom: .5px solid gray;
 }
 
 /* left-bar */
@@ -29,6 +31,15 @@ nav {
     max-height: 100%;
 }
 
+/* logo */
+.logo {
+    width: 7.5rem;
+    height: 1.5rem;
+    margin: 1rem;
+}
+
+/* anchor */
+
 .nav-start>a,
 .nav-end>a {
     max-height: 100%;
@@ -37,16 +48,12 @@ nav {
     font-weight: 500;
     color: #7b7b7b;
     font-size: small;
-    /* debug */
-    /* border: 2px dashed greenyellow; */
 }
 
-.logo {
-    width: 7.5rem;
-    height: 1.5rem;
-    margin: 1rem; 
-    /* debug */
-    /* border: 1px dashed violet; */
+/* nav-button */
+
+.nav-button {
+    margin: 1rem;
 }
 
 /* JUMBO */
@@ -62,6 +69,8 @@ nav {
     width: 100%;
     height: 43rem;
 }
+
+/* content */
 
 #jumbo-title {
     position: absolute;
@@ -102,59 +111,105 @@ nav {
 }
 
 /* PLANS */
+
+/* title */
+
 .business-title {
-    margin-top: 10rem;
+    margin: 8rem 0 3rem 0;
 }
+
+/* fatturazione */
 
 .plan {
-    margin: 2rem 0;
+    margin: 4rem 0;
     height: 20px;
-}
-
-.yearly {
-    margin-left: 3rem;
 }
 
 .circle {
     display: inline-block;
-    width: 11px;
-    height: 11px;
+    width: 14px;
+    height: 14px;
     border-radius: 50px;
+    vertical-align: middle;
 }
-
+/* month */
 .circle.month {
     border: 3.5px solid #0061fe;
 }
-
+/* year */
 .circle.year {
     border: 2px solid #7b7b7b;
+    margin-left: 2rem;
 }
 
+/* COLONNE */
 
-
-/* 3 COLONNE */
+/* display 3 colonne + footer */
 .colonne,
 .foot-col {
     display: flex;
     justify-content: space-between;
 }
 
-.singolo {
+/* section 3 colonne spaziature */
+.icons,
+.icons>div,
+.buy-now,
+.highlights li {
+    padding: 1rem 0;
+}
+
+/* single column */
+.single-col {
     width: 30%;
     padding-bottom: 1rem;
     border: 1px solid #7b7b7b;
 }
 
-.singolo hr {
+.column-title {
+    text-align: center;
+    border-bottom: 1px solid #7b7b7b;
+}
+
+.column-container {
+    width: 100%;
+    padding: .8rem 1.5rem;
+    position: relative;
+}
+
+.single-col hr {
     width: 25%;
     margin: 2rem 0;
 }
 
 .price {
-    font-weight: 500;
+    font-weight: 700;
     padding: .5rem 0;
 }
 
+/* posizionamento icons */
+.icons div {
+    margin-left: 15px;
+    height: 4rem;
+}
+
+.spaced-icon {
+    position: absolute;
+    left: 20px;
+}
+
+/* column button */
+.col-button {
+    width: 100%;
+    margin: 3rem 0 1rem 0;
+}
+
+/* link buy now */
+.buy-now a {
+    color: #0061fe;
+}
+
+/* highlights */
 .highlights {
     list-style: none;
 }
@@ -171,41 +226,6 @@ nav {
     color: #FFF;
 }
 
-.column-title {
-    text-align: center;
-    border-bottom: 1px solid #7b7b7b;
-}
-
-.column-container {
-    width: 100%;
-    padding: .8rem 1.5rem;
-    position: relative;
-}
-
-.buy-now a {
-    color: #0061fe;
-}
-
-/* POSITION ICONS */
-
-.icons div {
-    margin-left: 15px;
-    height: 4rem;
-    
-}
-.spaced-icon {
-    position: absolute;
-    left: 20px;
-}
-
-/* SECTION 3 COLONNE SPAZIATURE */
-
-.icons,
-.icons>div,
-.buy-now,
-.highlights li {
-    padding: 1rem 0;
-}
 
 /* ENTERPRISE */
 
@@ -215,20 +235,18 @@ nav {
     border: 1px solid #7b7b7b;
 }
 
-#enterprise-btn-position {
-    position: relative;
+/* content */
+.enterprise-title h3 {
+    padding: 2rem 0 0 2rem;
 }
 
 .enterprise-title div {
     margin-top: 2rem;
 }
 
-.enterprise-title h3 {
-    padding: 2rem 0 0 2rem;
-}
 .contact {
     padding-top: 1rem;
-    font-weight: bold;
+    font-weight: 700;
     padding-left: 2rem;
 }
 
@@ -237,16 +255,30 @@ nav {
     padding: 2rem 2rem;
 }
 
+/* button  */
+#enterprise-btn-position {
+    position: relative;
+}
+
+.enterprise-button {
+    position: absolute;
+    width: 25%;
+    bottom: 7rem;
+    right: 2rem;
+}
+
 /* PARTNER */
 
 .partner {
     position: relative;
     
 }
+
 .partner-img {
     width: 55%;
 }
 
+/* text content */
 .partner-text {
     position: absolute;
     top: 2rem;
@@ -309,6 +341,12 @@ nav {
     object-fit: cover;   
 }
 
+.loghi img {
+    width: 55%;
+    filter: invert();
+    vertical-align: middle;
+}
+
 #border-designit {
     width: 100%;
     height: 100%;
@@ -317,12 +355,6 @@ nav {
 
 #space-designit {
     margin-bottom: 50px;
-}
-
-.loghi img {
-    width: 55%;
-    filter: invert();
-    vertical-align: middle;
 }
 
 .central-col {
