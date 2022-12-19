@@ -374,7 +374,17 @@ nav {
     top: 1rem;
     right: -20rem;
 }
-
+ 
+#button-layover {
+    position: absolute;
+    top: 1rem;
+    right: -20rem;
+    padding: .6rem;
+    width: 55%;
+    height: 20%;
+    background-color: #FFF;
+    color: transparent;
+}
 /* DOMANDE FREQUENTI */
 
 #domande-frequenti {
