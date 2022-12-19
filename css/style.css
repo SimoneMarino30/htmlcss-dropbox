@@ -1,53 +1,69 @@
 /* NAV */
+/* position fixed */
 nav {
     position: fixed;
     z-index: 1;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    min-width: 100%;
     height: 4rem;
-    background-color: #FFF;  
+    background-color: #FFF;
 }
 
+/* left-bar */
 .nav-start {
     display: flex;
     justify-content: flex-start;
+    align-items: center;
     width: 50%;
+    max-height: 100%;
+    
 }
-
+/* right-bar */
 .nav-end {
     display: flex;
     justify-content: flex-end;
+    align-items: center;
     width: 50%;
+    max-height: 100%;
 }
 
 .nav-start>a,
 .nav-end>a {
-    padding: 1.5rem .8rem 1.6rem .8rem;
+    max-height: 100%;
+    padding: 1.3rem;
     text-decoration: none;
     font-weight: 500;
     color: #7b7b7b;
     font-size: small;
+    /* debug */
+    /* border: 2px dashed greenyellow; */
 }
 
 .logo {
-    width: 9rem;
-    margin: 1.1rem .4rem; 
+    width: 7.5rem;
+    height: 1.5rem;
+    margin: 1rem; 
+    /* debug */
+    /* border: 1px dashed violet; */
 }
 
 /* JUMBO */
+
+/* section */
 .jumbotron {
     background-color: rgb(180, 208, 230);
 }
 
+/* container */
 .jumbo {
     position: relative;
     width: 100%;
-    height: 41rem;
+    height: 43rem;
 }
 
-.jumbo-title {
+#jumbo-title {
     position: absolute;
     top: 0;
     left: 0;
@@ -56,12 +72,12 @@ nav {
     text-align: start;
 }
 
-.jumbo-text {
+#jumbo-text {
     position: absolute;
     top: 22rem;
     left: 4rem;
     width: 18rem;
-    max-width: 80%;
+    max-width: 100%;
 }
 
 .jumbo-img {
@@ -131,6 +147,7 @@ nav {
 
 .singolo hr {
     width: 25%;
+    margin: 2rem 0;
 }
 
 .price {
@@ -142,12 +159,18 @@ nav {
     list-style: none;
 }
 
+.highlights li {
+    height: 4rem;
+}
+
 .visible-check {
     color: #0061fe;
 }
+
 .invisible-check {
     color: #FFF;
 }
+
 .column-title {
     text-align: center;
     border-bottom: 1px solid #7b7b7b;
@@ -167,6 +190,8 @@ nav {
 
 .icons div {
     margin-left: 15px;
+    height: 4rem;
+    
 }
 .spaced-icon {
     position: absolute;
@@ -357,7 +382,7 @@ nav {
 }
 
 #domande-frequenti i {
-    margin-left: 15rem; 
+    margin-left: 10rem; 
 }
 
 #domande-frequenti span {
